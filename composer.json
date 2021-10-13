@@ -1,0 +1,26 @@
+{
+    "name": "iamsaint/yii-push",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Alexey Chernousov",
+            "email": "iamsaint@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "norkunas/onesignal-php-api": "^2.7",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzle/guzzle": "^3.9",
+        "php-http/client-common": "^2.4",
+        "php-http/guzzle7-adapter": "^1.0",
+        "nyholm/psr7": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yiisoft\\Push\\": "push/src",
+            "Yiisoft\\Push\\Firebase\\": "push-firebase/src"
+        }
+    }
+}
