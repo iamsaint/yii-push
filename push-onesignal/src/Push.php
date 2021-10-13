@@ -27,11 +27,11 @@ final class Push implements PushInterface
             $result['contents'][$message->getLanguage()] = $message->getBody();
 
             if(!array_key_exists(self::DEFAULT_LANGUAGE, $result['headings'])) {
-                $result['headings'] = $message->getTitle();
+                $result['headings'][self::DEFAULT_LANGUAGE] = $message->getTitle();
             }
 
             if(!array_key_exists(self::DEFAULT_LANGUAGE, $result['contents'])) {
-                $result['contents'] = $message->getBody();
+                $result['contents'][self::DEFAULT_LANGUAGE] = $message->getBody();
             }
 
         }

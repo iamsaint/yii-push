@@ -56,8 +56,9 @@ final class Provider implements PushProviderInterface
                 break;
             default:
                 throw new \InvalidArgumentException('Invalid segment type');
+
         }
-var_dump($notifications);die;
+
         return $this->api->notifications()->add($notifications);
     }
 }
