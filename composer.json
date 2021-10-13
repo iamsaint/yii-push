@@ -20,7 +20,8 @@
     "autoload": {
         "psr-4": {
             "Yiisoft\\Push\\": "push/src",
-            "Yiisoft\\Push\\Firebase\\": "push-firebase/src"
+            "Yiisoft\\Push\\Firebase\\": "push-firebase/src",
+            "Yiisoft\\Push\\OneSignal\\": "push-onesignal/src"
         }
     }
 }
