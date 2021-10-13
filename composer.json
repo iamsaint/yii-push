@@ -1,7 +1,5 @@
 {
     "name": "iamsaint/yii-push",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Alexey Chernousov",
